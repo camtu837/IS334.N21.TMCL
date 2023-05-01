@@ -1,30 +1,19 @@
-# IS334.N21.TMCL
+<img width="35%" align="right" alt="Github" src="https://user-images.githubusercontent.com/48678280/88862734-4903af80-d201-11ea-968b-9c939d88a37c.gif" />
 
-from dataclasses import dataclass
-from typing import Tuple
+# ⭐️ Thông tin môn học 👋
 
+- Tên môn học: Khai thác dữ liệu
+- Mã môn học: IS252
+- Mã lớp: IS252.N22.HTCL
+- Năm học: 2023-2024
+- Giảng viên: Ts. Cao Thị Nhạn - nhanct@uit.edu.vn
+            Nguyễn Hồ Duy Trí - trinhd@uit.edu.vn
+# ⭐️ Thông tin nhóm 👯
+| MSSV | Họ và tên | Gmail | Github |
+|--------------|-------|------|-------|
+| 20520837 | Nguyễn Cẩm Tú | 20520837@gm.uit.edu.vn | https://github.com/camtu837 
+| 20520797 | Nguyễn Thu Thủy | 20520797@gm.uit.edu.vn |  
+| 20521847 | Nguyễn Thanh Sơn | 20521847@gm.uit.edu.vn |
 
-class Meta(type):
-    def __new__(cls, name, bases, attrs):
-        new_cls = super().__new__(cls, name, bases, attrs)
-        return dataclass(unsafe_hash=True, frozen=True)(new_cls)
+# ⭐️ Thông tin đồ án 📚
 
-
-class Bio(metaclass=Meta):
-    name        : str = "Redowan Delowar"
-    designation : str = "Data Scientist"
-    company     : str = "ShopUp"
-    base        : str = "Dhaka, Bangladesh"
-    blog        : str = "rednafi.github.io/digressions"
-
-
-class Stack(metaclass=Meta):
-    languages   : Tuple[str, ...] = ("Python", "Go", "Shell")
-    databases   : Tuple[str, ...] = ("MySQL", "PostgreSQL", "Mongo", "Redis")
-    misc        : Tuple[str, ...] = ("Docker", "Celery")
-    ongoing     : Tuple[str, ...] = ("Django", "GraphQL")
-
-
-class Social(metaclass=Meta):
-    twitter     : str = "rednafi"
-    linkedin    : str = "redowan"
