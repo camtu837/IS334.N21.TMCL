@@ -2,13 +2,14 @@
 
 ### ⭐️ Thông tin môn học 👋
 
-- Tên môn học: Khai thác dữ liệu
-- Mã môn học: IS252
-- Mã lớp: IS252.N22.HTCL
+- Tên môn học: Thương mại điện tử
+- Mã môn học: IS334
+- Mã lớp: IS334.N21.HTCL
 - Năm học: 2023-2024
-- Giảng viên: Ts. Cao Thị Nhạn - nhanct@uit.edu.vn
-            Nguyễn Hồ Duy Trí - trinhd@uit.edu.vn
+- Giảng viên: Ths. Đỗ Duy Thanh
+
 ### ⭐️ Thông tin nhóm 👯
+
 | MSSV | Họ và tên | Gmail | Github |
 |--------------|-------|------|-------|
 | 20520837 | Nguyễn Cẩm Tú | 20520837@gm.uit.edu.vn | https://github.com/camtu837 
@@ -17,3 +18,6 @@
 
 ### ⭐️ Thông tin đồ án 📚
 
+```text
+            Gold Price Prediction with Transformer
+```
