@@ -11,7 +11,7 @@
 ###  Thông tin nhóm 👯
 
 | MSSV | Họ và tên | Gmail | Github | ⭐️ |
-|--------------|-------|------|-------|
+|--------------|-------|------|-------|----|
 | 20520837 | Nguyễn Cẩm Tú | 20520837@gm.uit.edu.vn | https://github.com/camtu837 |.
 | 20520797 | Nguyễn Thu Thủy | 20520797@gm.uit.edu.vn |.|.
 | 20521847 | Nguyễn Thanh Sơn | 20521847@gm.uit.edu.vn |.|.
